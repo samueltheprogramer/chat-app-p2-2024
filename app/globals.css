@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.message-container {
+    max-width: 300px; /* Adjust the width as per your requirement */
+    word-wrap: break-word; /* Ensures long words break and wrap to the next line */
+  }
