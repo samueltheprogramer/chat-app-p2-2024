@@ -21,16 +21,20 @@ export default function Auth() {
       console.error(error);
     }
 
-   router.push("/home");
-    
+    router.push("/home");
   };
   return (
     <div className="h-screen w-full flex flex-col items-center justify-center  bg-gradient-to-b from-yellow-200 to-yellow-600 gap-6">
-      <h1 className="lg:text-4xl text-xl font-extrabold">
+      <h1 className="lg:text-4xl text-2xl font-extrabold text-black">
         Sign In with Google to Continue
       </h1>
-      <button variant="contained" sx={{bgcolor:"red"}} onClick={handleSignInWithGoogle} className="lg:text-2xl text-lg rounded-3xl btn">
-        Sign In With Google <Google/>
+      <button
+        variant="contained"
+        sx={{ bgcolor: "red" }}
+        onClick={handleSignInWithGoogle}
+        className="lg:text-2xl text-lg rounded-3xl btn text-black "
+      >
+        Sign In With Google <Google />
       </button>
     </div>
   );
