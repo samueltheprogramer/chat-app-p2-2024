@@ -46,18 +46,18 @@ export default function Page() {
               Enter Room Name:
             </label>
             <input
-              className="lg:w-60 w-40 h-8 ring-black ring input text-black"
+              className="lg:w-60 w-40 h-8 ring-black ring input text-black bg-green-400"
               type="text"
               ref={inputRoomNameRef}
             />
             <button
-              className="lg:w-60 w-40  btn h-8 text-black"
+              className="lg:w-60 w-40  btn h-8 text-black bg-white"
               onClick={handleGo}
             >
               Go !
             </button>
             <button
-              className="lg:w-60 w-40  btn h-8 text-black"
+              className="lg:w-60 w-40  btn h-8 text-black bg-white"
               onClick={handleNewRoom}
             >
               NewRoom!

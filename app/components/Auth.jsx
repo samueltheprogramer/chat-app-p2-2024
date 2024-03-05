@@ -32,7 +32,7 @@ export default function Auth() {
         variant="contained"
         sx={{ bgcolor: "red" }}
         onClick={handleSignInWithGoogle}
-        className="lg:text-2xl text-lg rounded-3xl btn text-black "
+        className="lg:text-2xl text-lg rounded-3xl btn text-black bg-green-500 "
       >
         Sign In With Google <Google />
       </button>
