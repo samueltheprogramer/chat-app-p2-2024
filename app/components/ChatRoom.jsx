@@ -62,7 +62,7 @@ export default function ChatRoom({ room }) {
   };
 
   return (
-    <div>
+    <div className="bg-green-500">
       <div>
         <h1 className="text-center bg-yellow-500 font-extrabold ring ring-black rounded-md m-4 text-black ">
           Wellcome to :{room}
